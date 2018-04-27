@@ -1,0 +1,64 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(238, 102, 224),rgb(17, 142, 246));
+    height: 180px;
+}
+
+header h1 {
+    color: white;
+    font-size: 400%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(253, 109, 205); */
+    height: 50px;
+}
+
+.container{
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+button h1{
+    color: white;
+    font-size: 25px;
+}
+.submitted{
+    display: flex;
+    font-size: 25px;
+    background: rgb(17, 142, 246);
+    border-radius: 13px;
+    width: 130px;
+    height: 50px;
+}
+.content {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content img {
+    width: 75%;
+    margin: 5px auto;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
